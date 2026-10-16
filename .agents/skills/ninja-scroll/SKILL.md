@@ -25,7 +25,7 @@ Unfurl the master scroll to display the user's complete arsenal of custom Shinob
 Group discovered skills into the core operational phases:
 - **👑 Mission Command & Orchestration:** `s-rank-mission`, `ninja-scroll`
 - **🧠 Strategy, Recon, Mentorship & Ideation:** `genjutsu`, `sharingan`, `kakashi-sensei`, `shikamaru`
-- **⚡ Execution, Swarm & Bug Finishing:** `shadow-clone`, `rasengan`, `kunai`
+- **⚡ Execution, Swarm, Local Launch & Bug Finishing:** `shadow-clone`, `rasengan`, `kunai`, `summoning-jutsu`
 - **✨ Visual Polish & Competency Trials:** `sexy-jutsu`, `chunin-exam`, `byakugan`
 - **🛡️ Defense, Internal Affairs & Release:** `anbu-black-ops`, `sand-coffin`, `jiraiya`
 - *(Plus any newly added custom skills discovered in the directory)*
@@ -64,12 +64,13 @@ Every Ninja Scroll invocation must follow this exact structure:
 
 ---
 
-### ⚡ II. Execution, Parallel Swarms & Bug Finishing
+### ⚡ II. Execution, Parallel Swarms, Local Launch & Bug Finishing
 | Jutsu / Skill | Trigger | Role & Core Superpower | When to Summon |
 | :--- | :--- | :--- | :--- |
 | **Shadow Clone** | `/shadow-clone` | Multi-Agent Parallel Swarm | Broad multi-file build—plans 2–3 waves ahead, dispatches parallel worker clones & monitors handoffs. |
 | **Rasengan** | `/rasengan` | Relentless Vertical Finisher | Single stubborn bug or failing test—locks onto a binary test anchor and grinds autonomously until green. |
 | **Kunai** | `/kunai` | Tactical Micro-Fix Volley | Quick punch list or small tweaks—strikes surgically (<5 lines) with zero ceremony and a 3-line debrief. |
+| **Summoning Jutsu** | `/summoning-jutsu` | Zero-Collision Local App Launcher & Port Map | Ready to preview the app—finds an unused port, spins up the local server with a clickable link, and maps what's running on all other local ports. |
 
 ---
 

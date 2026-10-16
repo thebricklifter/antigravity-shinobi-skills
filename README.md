@@ -1,10 +1,10 @@
 # 🍥 Shinobi Arsenal: Naruto-Themed Antigravity Skills
 
-A complete, end-to-end tactical suite of **15 custom agent skills (Jutsus)** for Google Antigravity, engineered to guide software projects from initial Socratic discovery and Kakashi-style domain mentorship through parallel execution, autonomous debugging, visual polish, security hardening, and release chronicle packaging.
+A complete, end-to-end tactical suite of **16 custom agent skills (Jutsus)** for Google Antigravity, engineered to guide software projects from initial Socratic discovery and Kakashi-style domain mentorship through parallel execution, autonomous debugging, zero-collision local app summoning, visual polish, security hardening, and release chronicle packaging.
 
 ---
 
-## 📜 The 15-Jutsu Arsenal
+## 📜 The 16-Jutsu Arsenal
 
 ### 🧭 Discovery, Planning, Reconnaissance & Mentorship
 | Skill | Invoke Command | Role & Purpose |
@@ -15,12 +15,13 @@ A complete, end-to-end tactical suite of **15 custom agent skills (Jutsus)** for
 | **[`kakashi-sensei`](.agents/skills/kakashi-sensei/SKILL.md)** | `/kakashi-sensei` | **The Copy Ninja Mentor & Domain Educator:** Teaches the user about whatever problem area, algorithm, or system architecture we are currently working on—speaking in Kakashi Hatake's laid-back, perceptive voice while peeling back "underneath the underneath" with mental models and a Bell Test. |
 | **[`shikamaru`](.agents/skills/shikamaru/SKILL.md)** | `/shikamaru` | **200-IQ Strategic Architect:** Maps the critical path, discovers clever architectural shortcuts, and produces phased execution checklists (`- [ ]`) ready for Shadow Clone dispatch and Byakugan tracking. |
 
-### ⚡ Execution, Swarm & Debugging
+### ⚡ Execution, Swarm, Local Launch & Debugging
 | Skill | Invoke Command | Role & Purpose |
 | :--- | :--- | :--- |
 | **[`shadow-clone`](.agents/skills/shadow-clone/SKILL.md)** | `/shadow-clone` | **Horizontal Multi-Agent Swarm:** Decomposes broad features across named parallel specialist sub-agents, anticipates downstream bottlenecks 2–3 steps ahead, and consolidates deliverables. |
 | **[`rasengan`](.agents/skills/rasengan/SKILL.md)** | `/rasengan` | **Autonomous Vertical Problem Finisher:** Locks onto a single stubborn bug, broken pipeline, or failing test suite and iterates relentlessly until the binary passing criteria are satisfied, followed by a Dawn Debrief. |
 | **[`kunai`](.agents/skills/kunai/SKILL.md)** | `/kunai` | **Rapid-Fire Tactical Micro-Fixes:** Executes zero-ceremony, surgical diffs (`< 5 lines`) for single bugs or punch-list volleys and reports back with a 3-line Cause / Action / Status debrief. |
+| **[`summoning-jutsu`](.agents/skills/summoning-jutsu/SKILL.md)** | `/summoning-jutsu` | **Zero-Collision Local App Launcher & Port Atlas:** Finds an un-utilized local port, spins up the local app in the background, provides a clickable navigation link, and maps out simple plain-English descriptions of what is running on all other local ports. |
 
 ### 👁️ Visibility, Polish & Verification
 | Skill | Invoke Command | Role & Purpose |
@@ -46,7 +47,8 @@ flowchart TD
     Start(["/s-rank-mission"]) --> P1["Phase 1: Genjutsu (Vision + Exposure/Repo Scope)"]
     P1 --> P2["Phase 2: Sharingan (Recon) & Shikamaru (Blueprint)"]
     P2 --> P3["Phase 3: Shadow Clone / Rasengan / Kunai (Build)"]
-    P3 --> P4["Phase 4: Byakugan (360° Progress Check)"]
+    P3 --> P3B["Summoning Jutsu (Free-Port Local Launch & Port Map)"]
+    P3B --> P4["Phase 4: Byakugan (360° Progress Check)"]
     P4 --> P5["Phase 5: Sexy Jutsu (UI/UX Polish)"]
     P5 --> P6["Phase 6: Chunin Exam (Stress Test) & ANBU Black Ops (Truth Audit)"]
     P6 --> Gate1{"Public Internet?"}
@@ -69,7 +71,7 @@ Place the `.agents/skills/` directory at the root of any Antigravity workspace:
 ```
 
 ### Global Machine-Level Discovery
-Sync all 15 skills to your global Antigravity configuration so they are available across every project on your machine:
+Sync all 16 skills to your global Antigravity configuration so they are available across every project on your machine:
 ```bash
 mkdir -p ~/.gemini/config/skills
 cp -R .agents/skills/* ~/.gemini/config/skills/

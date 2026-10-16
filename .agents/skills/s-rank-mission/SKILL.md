@@ -34,7 +34,7 @@ Take a project from raw spark to verified completion by orchestrating the entire
         │                (Scoped strictly to the Exposure & Release Profile from Stage 1)
         ▼
 [Stage 4: BUILD]     ──► Execute via SHADOW CLONE (parallel waves), RASENGAN (vertical grind), or KUNAI (micro-fixes)
-        │
+        │                + SUMMONING JUTSU (spin up local app on a free port + clickable link & localhost port map)
         ▼
 [Stage 5: BYAKUGAN]  ──► Mid/Post-build audit: verify exact % completion against the Shikamaru ledger
         │
