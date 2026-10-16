@@ -25,7 +25,7 @@ Take a project from raw spark to verified completion by orchestrating the entire
 
 ```text
 [Stage 1: GENJUTSU]  ──► Clarify outcome, edge cases + lock [Local vs Public] & [Local vs GitHub (thebricklifter / haydenamaro-ai)]
-        │
+        │                (💡 Summon KAKASHI SENSEI at any stage for an in-character field lesson on the problem domain)
         ▼
 [Stage 2: SHARINGAN] ──► (Optional) Technical recon & pattern comparison if tricky/unfamiliar tech is involved
         │

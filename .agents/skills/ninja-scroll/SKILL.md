@@ -24,7 +24,7 @@ Unfurl the master scroll to display the user's complete arsenal of custom Shinob
 ### Step 2: Tactical Categorization
 Group discovered skills into the core operational phases:
 - **👑 Mission Command & Orchestration:** `s-rank-mission`, `ninja-scroll`
-- **🧠 Strategy, Recon & Ideation:** `genjutsu`, `sharingan`, `shikamaru`
+- **🧠 Strategy, Recon, Mentorship & Ideation:** `genjutsu`, `sharingan`, `kakashi-sensei`, `shikamaru`
 - **⚡ Execution, Swarm & Bug Finishing:** `shadow-clone`, `rasengan`, `kunai`
 - **✨ Visual Polish & Competency Trials:** `sexy-jutsu`, `chunin-exam`, `byakugan`
 - **🛡️ Defense, Internal Affairs & Release:** `anbu-black-ops`, `sand-coffin`, `jiraiya`
@@ -54,11 +54,12 @@ Every Ninja Scroll invocation must follow this exact structure:
 
 ---
 
-### 🧠 I. Ideation, Recon & Strategic Planning
+### 🧠 I. Ideation, Recon, Mentorship & Strategic Planning
 | Jutsu / Skill | Trigger | Role & Core Superpower | When to Summon |
 | :--- | :--- | :--- | :--- |
 | **Genjutsu** | `/genjutsu` | Socratic Product Sparring | Before coding—interrogates human flows, edge cases, and deployment/GitHub scope 1 question at a time until released with `"Kai"`. |
-| **Sharingan** | `/sharingan` | Technical Recon & Mentor | Stuck on a tricky architecture choice—researches real-world patterns, compares tradeoffs & teaches the mental model. |
+| **Sharingan** | `/sharingan` | Technical Recon & Pattern Copy | Stuck on a tricky architecture choice—researches real-world patterns, compares tradeoffs & synthesizes a composite strategy. |
+| **Kakashi Sensei** | `/kakashi-sensei` | Laid-Back Domain Teacher | Want to learn the current problem area—explains what's going on "underneath the underneath" in Kakashi's voice with mental models & a Bell Test. |
 | **Shikamaru** | `/shikamaru` | Master Strategic Planner | Ready to plan—finds the clever 20-line shortcut and builds a step-by-step roadmap for Shadow Clones & Byakugan. |
 
 ---

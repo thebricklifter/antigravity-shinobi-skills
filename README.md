@@ -1,17 +1,18 @@
 # 🍥 Shinobi Arsenal: Naruto-Themed Antigravity Skills
 
-A complete, end-to-end tactical suite of **14 custom agent skills (Jutsus)** for Google Antigravity, engineered to guide software projects from initial Socratic discovery through parallel execution, autonomous debugging, visual polish, security hardening, and release chronicle packaging.
+A complete, end-to-end tactical suite of **15 custom agent skills (Jutsus)** for Google Antigravity, engineered to guide software projects from initial Socratic discovery and Kakashi-style domain mentorship through parallel execution, autonomous debugging, visual polish, security hardening, and release chronicle packaging.
 
 ---
 
-## 📜 The 14-Jutsu Arsenal
+## 📜 The 15-Jutsu Arsenal
 
-### 🧭 Discovery, Planning & Reconnaissance
+### 🧭 Discovery, Planning, Reconnaissance & Mentorship
 | Skill | Invoke Command | Role & Purpose |
 | :--- | :--- | :--- |
 | **[`s-rank-mission`](.agents/skills/s-rank-mission/SKILL.md)** | `/s-rank-mission` | **Master End-to-End Orchestrator:** Kicks off a full project lifecycle starting with Genjutsu to lock in user outcomes, exposure scope (Local vs. Public Internet), and release destination (`Local Machine` vs. `Personal GitHub: thebricklifter` vs. `Work GitHub: haydenamaro-ai`), then dynamically sequences the entire Shinobi pipeline. |
 | **[`genjutsu`](.agents/skills/genjutsu/SKILL.md)** | `/genjutsu` | **Socratic Product Sparring Partner:** Interactive, single-question interrogation focused strictly on human behavior, user outcomes, failure recovery, and deployment/repository scope before a single line of code is written. Released with `"Kai"`. |
-| **[`sharingan`](.agents/skills/sharingan/SKILL.md)** | `/sharingan` | **Technical Reconnaissance & Mentor:** Researches how top engineering teams solve complex technical hurdles, synthesizes a composite strategy blueprint, and includes an educational plain-English mentor breakdown. |
+| **[`sharingan`](.agents/skills/sharingan/SKILL.md)** | `/sharingan` | **Technical Reconnaissance & Pattern Copy:** Researches how top engineering teams solve complex technical hurdles, synthesizes a composite strategy blueprint, and includes an educational plain-English breakdown. |
+| **[`kakashi-sensei`](.agents/skills/kakashi-sensei/SKILL.md)** | `/kakashi-sensei` | **The Copy Ninja Mentor & Domain Educator:** Teaches the user about whatever problem area, algorithm, or system architecture we are currently working on—speaking in Kakashi Hatake's laid-back, perceptive voice while peeling back "underneath the underneath" with mental models and a Bell Test. |
 | **[`shikamaru`](.agents/skills/shikamaru/SKILL.md)** | `/shikamaru` | **200-IQ Strategic Architect:** Maps the critical path, discovers clever architectural shortcuts, and produces phased execution checklists (`- [ ]`) ready for Shadow Clone dispatch and Byakugan tracking. |
 
 ### ⚡ Execution, Swarm & Debugging
@@ -68,7 +69,7 @@ Place the `.agents/skills/` directory at the root of any Antigravity workspace:
 ```
 
 ### Global Machine-Level Discovery
-Sync all 14 skills to your global Antigravity configuration so they are available across every project on your machine:
+Sync all 15 skills to your global Antigravity configuration so they are available across every project on your machine:
 ```bash
 mkdir -p ~/.gemini/config/skills
 cp -R .agents/skills/* ~/.gemini/config/skills/
