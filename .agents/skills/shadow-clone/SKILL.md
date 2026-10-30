@@ -20,6 +20,9 @@ Decompose wide workloads into synchronized, parallel work streams. You are not a
    - *Can a queued downstream task be pre-drafted or stubbed right now?*
    - *Is an active clone struggling or blocked, requiring an auxiliary clone to unblock it?*
 6. **Collision Isolation:** Ensure no two clones edit the exact same lines of a file concurrently. Split work cleanly across distinct files, routes, or isolated architectural layers.
+7. **Model Tiering & Backend Execution Parallelism (`argon` Planner + Parallel Workers):**
+   - Keep high-IQ architectural planning (`shikamaru`) on the **highest-level model available (ideally `argon` / `pro`)**.
+   - For backend data/document pipelines (such as Proposal $\rightarrow$ Deal Sheet $\rightarrow$ SOW generation), combine **Stage-1 Single-Source-of-Truth (`SSOT`) normalization** with **`concurrent.futures.ThreadPoolExecutor` / `ProcessPoolExecutor` fan-out** and **in-memory template/XML caching** so independent artifacts (Proposal `.docx`/`.html`, Deal Sheet `.xlsx`/`.csv`, SOW `.docx`/`.html`) compile simultaneously in parallel rather than serially.
 
 ---
 
