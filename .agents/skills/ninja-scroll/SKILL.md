@@ -57,7 +57,7 @@ Every Ninja Scroll invocation must follow this exact structure:
 ### 🧠 I. Ideation, Recon, Mentorship & Strategic Planning
 | Jutsu / Skill | Trigger | Role & Core Superpower | When to Summon |
 | :--- | :--- | :--- | :--- |
-| **Genjutsu** | `/genjutsu` | Socratic Product Sparring | Before coding—interrogates human flows, edge cases, and deployment/GitHub scope 1 question at a time until released with `"Kai"`. |
+| **Genjutsu** | `/genjutsu` | Concept-Root & End-State Sparring | Before coding—cuts past minutiae to lock in your true intention, core design trade-offs, and 10/10 ideal end state 1 question at a time until `"Kai"`. |
 | **Sharingan** | `/sharingan` | Technical Recon & Pattern Copy | Stuck on a tricky architecture choice—researches real-world patterns, compares tradeoffs & synthesizes a composite strategy. |
 | **Kakashi Sensei** | `/kakashi-sensei` | Laid-Back Domain Teacher | Want to learn the current problem area—explains what's going on "underneath the underneath" in Kakashi's voice with mental models & a Bell Test. |
 | **Shikamaru** | `/shikamaru` | Master Strategic Planner | Ready to plan—finds the clever 20-line shortcut and builds a step-by-step roadmap for Shadow Clones & Byakugan. |
